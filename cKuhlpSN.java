@@ -20,7 +20,7 @@ public class cKuhlpSN {
             socket.receive(rr);
 
             String re = new String(rr.getData(), 0, rr.getLength()).trim();
-            String[] parts = re.split(";", 2);
+            String[] parts = re.split(";");
             String req = parts[0];
             String data = parts[1];
 
