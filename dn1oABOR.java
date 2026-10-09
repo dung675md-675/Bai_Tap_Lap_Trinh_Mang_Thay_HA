@@ -49,7 +49,7 @@ public class dn1oABOR {
 
             // 1. Chuẩn hóa tên: chữ cái đầu viết hoa + CÓ KHOẢNG TRẮNG
             StringBuilder standardName = new StringBuilder();
-            standardNam
+            
             for (String w : words) {
                 standardName.append(Character.toUpperCase(w.charAt(0)))
                             .append(w.substring(1))
